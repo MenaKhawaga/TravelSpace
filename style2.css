@@ -1,0 +1,84 @@
+:root{
+    color:white;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+    font-weight: 50;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+line-height: 25px;}
+p{
+    color: rgb(1, 7, 39);
+    font-weight: bold;
+    
+}
+.my-travels{
+            padding:30px;
+            text-align: center;
+        }
+.travel-title{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.travels-cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+    height:100vh;
+    padding:20px;
+    justify-content: center;  
+
+}
+.travel-card{
+    width: 200px;
+    height: 130px;
+    border-radius: 50px;
+    border: solid white 4px;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #9198ad61; */
+    background-color:rgb(222 222 222 / 44%);;
+    transition: transform 0.5s ease;
+
+}
+.travel-card:hover{
+  transform: scale(1.1);
+
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at bottom, #0b1220 0%, #02030a 100%);
+  overflow-x: hidden;
+}
+
+/* Moving stars background */
+.stars-bg {
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 10px 10px, white, transparent),
+    radial-gradient(1px 1px at 50px 150px, white, transparent),
+    radial-gradient(1px 1px at 100px 80px, white, transparent),
+    radial-gradient(1px 1px at 200px 120px, white, transparent),
+    radial-gradient(1px 1px at 250px 200px, white, transparent),
+    radial-gradient(1px 1px at 300px 300px, white, transparent),
+    radial-gradient(1px 1px at 400px 50px, white, transparent),
+    radial-gradient(1px 1px at 500px 400px, white, transparent),
+    radial-gradient(1px 1px at 600px 250px, white, transparent),
+    radial-gradient(1px 1px at 700px 100px, white, transparent);
+  background-size: 300px 300px;
+  animation: starScroll 60s linear infinite;
+  z-index: -1;
+}
+
+@keyframes starScroll {
+  from { background-position: 0 0; }
+  to { background-position: -1000px 2000px; }
+}

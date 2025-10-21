@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacer</title>
+    <link rel="icon" href="images/Icon_planet.svg.png" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body >
+  <div class="stars-bg"></div>
+ 
+    <div class="main-header" >
+        <nav id="top">
+            <div class="nav-bar">
+                <div class="logo">
+                    <i class="fa-solid fa-rocket fa-bounce" style="color: #ffffff;"></i>
+                    <span>Spacer</span>
+                </div>
+                <button class="menu-toggle" >&#9776;</button> 
+                <div class="nav-items">
+                    <ul >
+                        <li><a href="#">Home</a></li>
+                        <li><a  href="#planets">Planets</a></li>
+                        <li><a  href="#book">Book</a></li>
+                        <li><a  href="#footer">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="main">
+                <div class="header-txt">
+                     <div class="header-img">
+                         <img src="images/astronaut3.png">
+                    </div>
+                    <div class="main-text">
+                        <h1 >Journey Beyond the stars</h1>
+                    </div>
+                    <div class="desc">
+                        <!-- <h4 >Launch into an unforgettable journey <br>to explore
+                            worlds beyonds imagination.<br>Start your space adenture today</h3> -->
+                    </div>
+                   
+                </div>
+                
+            </div>
+        </header>
+    </div>
+    <section id="planets">
+        <div  class="show-planets">
+            <h2 class="section-title">Our Space Destinations</h2>
+            <div class="grid-container">
+                <div class="item1"  >
+                    <img src="images/mercury.png" width="170px">
+                    <h2>Mercury</h2>
+                </div>
+                <div class="item2" >
+                      <img src="images/Venus.png" width="220px">
+                    <h2>Venus</h2>
+                </div>
+                <div class="item3">
+                      <img src="images/mars.png" width="175px">
+                    <h2>Mars</h2>
+                </div>
+                <div class="item4">
+                      <img src="images/Jupiter.png" width="220px">
+                    <h2>Jupiter</h2>
+                </div>
+                <div class="item5">
+                      <img src="images/Saturn.png" width="300px">
+                    <h2>Saturn</h2>
+                </div>
+                <div class="item6">
+                      <img src="images/uranus.png" width="180px">
+                    <h2>Uranus</h2>
+                </div>
+                <div class="item7">
+                      <img src="images/neptune.png" width="220px">
+                    <h2>Neptone</h2>
+                </div>
+                 <div class="item8">
+                      <img src="images/Moon.png" width="220px">
+                    <h2>Moon</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="planets-info">
+            <div class="planet-name">
+                <h1> Mercury</h1>
+            </div>
+            <div class="planet-img">
+                <img src="images/mercury.png">
+            </div>
+            <div class="planet-info">
+                <div class="Diameter">
+                    <h4>Diameter(km)</h4>
+                    <h2>4,880</h2>
+                </div>
+                <div class="Distance ">
+                    <h4>Distance from Earth</h4>
+                    <h2>77 million km</h2>
+                </div>
+                <div class="Temperature">
+                    <h4>Avg Temperature(°C)</h4>
+                    <h2>167°C</h2>
+                </div>
+                <div class="Rotation">
+                    <h4>Rotation Period</h4>
+                    <p>(1 day of planet = X Earth hours)</p>
+                    <h2>58.6 Days</h2>
+                </div>
+            </div>
+            <div class="button-container">
+
+                <button class="back"><</button>
+                <button class="next">></button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id='book'>
+        <div  class="book-section">
+            <div>
+                <h2>Book Your Cosmic Journey Now</h2>
+                <br>
+                <h4>Traveler Details:</h4>
+                <br>
+            </div>
+
+            <div class="form-card">
+                <form>
+                <input class="name" type="text"  placeholder="Enter your name" required>
+                <input class="email" type="email"  placeholder="Enter your email" required >
+                <input class="phone" type="number"  placeholder="Enter your phone" required >
+                <select class="destination" required>
+                    <option >--- Choose your Destination ---</option>
+                    <option>Mercury</option>                                        
+                    <option>Venus</option>
+                    <option>Mars</option>
+                    <option>Jupiter</option>
+                    <option>Saturn</option>
+                    <option>Venus</option>
+                    <option>Neptone</option>
+                    <option>Moon</option>
+                </select>
+                <input class="travel-date" type="date" required>
+                <!-- <input type="button" value="Book" class="book-btn"> -->
+                <!-- <input type="submit" value="Book" class="book-btn"> -->
+                 <button class="book-btn">Book</button>
+                </form>
+                <div class="alertBox"></div>
+            </div>
+                <img src="images/astronaut.png">
+                
+                <button class="view-travels">View My Travels</button>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer" >
+            <p>SO, YOU WANT TO TRAVEL TO <br> <span>SPACE</span></p>
+            <ul>
+            <li>
+                <a href="tel:+201069242596">
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/+201069242596?text=thanks for contact with us">
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                </a>
+            </li>
+            <li><a href="http://t.me/+201069242596"><i class="fa-brands fa-telegram"></a></i></li>
+            <li><a href="mailto:menakhawaga1@gmail.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a></i></li>
+            </ul>
+
+        </div>
+    </section>
+    <a href="#top" class="backToTop" title="Back to Top">
+        <img src="../images/isolated-rocket-space-ship-png.webp" alt="Back to Top">
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
