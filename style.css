@@ -592,15 +592,15 @@ body {
   inset: 0;
   background-image:
     radial-gradient(1px 1px at 10px 10px, white, transparent),
-    radial-gradient(1px 1px at 50px 150px, white, transparent),
-    radial-gradient(1px 1px at 100px 80px, white, transparent),
+    radial-gradient(2px 2px at 50px 150px, white, transparent),
+    radial-gradient(3px 3px at 100px 80px, white, transparent),
     radial-gradient(1px 1px at 200px 120px, white, transparent),
-    radial-gradient(1px 1px at 250px 200px, white, transparent),
-    radial-gradient(1px 1px at 300px 300px, white, transparent),
+    radial-gradient(2px 2px at 250px 200px, white, transparent),
+    radial-gradient(3px 3px at 300px 300px, white, transparent),
     radial-gradient(1px 1px at 400px 50px, white, transparent),
-    radial-gradient(1px 1px at 500px 400px, white, transparent),
-    radial-gradient(1px 1px at 600px 250px, white, transparent),
-    radial-gradient(1px 1px at 700px 100px, white, transparent);
+    radial-gradient(2px 2px at 500px 400px, white, transparent),
+    radial-gradient(3px 3px at 600px 250px, white, transparent),
+    radial-gradient(3px 3px at 700px 100px, white, transparent);
   background-size: 300px 300px;
   animation: starScroll 60s linear infinite;
   z-index: -1;
